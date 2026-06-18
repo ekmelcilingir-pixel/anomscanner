@@ -1,5 +1,16 @@
 [
   {
+    "filename": "anomscanner-2026-06-18-1781817674822.html",
+    "for_date": "2026-06-18",
+    "generated_at": "2026-06-18T21:21:14.822325+00:00",
+    "flagged": [
+      "ALAB",
+      "BE",
+      "GRBK",
+      "XOM"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-06-18-1781816943448.html",
     "for_date": "2026-06-18",
     "generated_at": "2026-06-18T21:09:03.448774+00:00",

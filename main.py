@@ -19,6 +19,7 @@ import scan as scanner
 import narrate as narrator
 import render as renderer
 import fetch_options
+import send_email
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DOCS = os.path.join(HERE, "docs")
@@ -95,6 +96,9 @@ def main():
     })
     json.dump(manifest, open(MANIFEST, "w"), indent=2)
     print(f"  manifest now has {len(manifest)} reports")
+
+    # optional e-mail notification (no-ops if Gmail secrets are absent)
+    send_email.maybe_send(scan, narr, today, fname)
 
 
 if __name__ == "__main__":

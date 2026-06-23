@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=1400, user-scalable=yes">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anomscanner — Plain Report · June 23, 2026</title>
+<style>
+:root{
+  --bg:#0d1117; --bg-elevated:#161b22; --bg-card:#1c2128; --border:#30363d;
+  --text:#e6edf3; --text-dim:#8b949e; --neutral:#8b949e;
+  --red:#ff5d6c; --amber:#f5b14c; --green:#27c281; --blue:#5ba7ff;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;line-height:1.55;font-size:15px;padding:18px 14px;max-width:760px;margin:0 auto}
+h1{font-size:22px;font-weight:800;letter-spacing:-0.3px;margin-bottom:4px}
+h2{font-size:16px;font-weight:700;color:var(--text);margin:22px 0 10px 0;letter-spacing:-0.2px}
+.meta{color:var(--text-dim);font-size:12.5px;margin-bottom:4px}
+.scope{color:var(--text-dim);font-size:12px;margin-bottom:14px}
+
+.tek-cumlede{background:var(--bg-elevated);border-left:4px solid var(--blue);padding:14px 18px;margin:16px 0;border-radius:8px;font-size:15px;line-height:1.6}
+
+.legend{color:var(--text-dim);font-size:12px;background:var(--bg-elevated);border:1px solid var(--border);border-radius:8px;padding:10px 14px;margin-bottom:18px}
+.legend strong{color:var(--text)}
+.legend .r{color:var(--red);font-weight:700}
+.legend .a{color:var(--amber);font-weight:700}
+.legend .g{color:var(--green);font-weight:700}
+
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:14px 16px;margin-bottom:12px}
+.card.r{border-left:4px solid var(--red)}
+.card.a{border-left:4px solid var(--amber)}
+.card.g{border-left:4px solid var(--green)}
+
+.card .top{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:10px}
+.card .tk{font-size:18px;font-weight:800;letter-spacing:-0.2px}
+.card .co{color:var(--neutral);font-size:12px}
+.pill{margin-left:auto;font-size:11px;font-weight:800;padding:4px 10px;border-radius:999px;white-space:nowrap;text-transform:uppercase;letter-spacing:0.4px}
+.pill.r{background:rgba(255,93,108,.16);color:var(--red)}
+.pill.a{background:rgba(245,177,76,.16);color:var(--amber)}
+.pill.g{background:rgba(39,194,129,.16);color:var(--green)}
+
+.pillrow{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 8px 0;font-size:11px}
+.minipill{background:var(--bg-elevated);border:1px solid var(--border);color:var(--text-dim);padding:2px 8px;border-radius:999px}
+.minipill strong{color:var(--text)}
+
+.row{display:flex;gap:8px;margin:6px 0;align-items:flex-start}
+.lbl{min-width:96px;color:var(--neutral);font-weight:700;font-size:12.5px;flex-shrink:0}
+.val{font-size:14px}
+
+.detay{margin-top:11px;padding-top:10px;border-top:1px dashed var(--border);color:var(--neutral);font-size:12px;line-height:1.55}
+.detay strong{color:var(--text)}
+.detay a{color:var(--blue);text-decoration:none}
+.detay a:hover{text-decoration:underline}
+.kanit{margin-top:6px}
+
+.foot{color:var(--text-dim);font-size:12px;margin-top:24px;padding-top:14px;border-top:1px solid var(--border);line-height:1.65}
+.foot strong{color:var(--text)}
+
+.glossary{margin-top:18px;background:var(--bg-elevated);border:1px solid var(--border);border-radius:8px;padding:12px 14px;font-size:12.5px;color:var(--text-dim);line-height:1.55}
+.glossary h3{font-size:13px;color:var(--text);font-weight:700;margin-bottom:8px;text-transform:uppercase;letter-spacing:0.5px}
+.glossary dt{color:var(--text);font-weight:700;margin-top:7px;font-size:12.5px}
+.glossary dd{margin-left:0;margin-top:1px}
+
+.disclaimer{color:var(--text-dim);font-size:11.5px;margin-top:14px;padding:10px;background:var(--bg-elevated);border-radius:6px;border:1px solid var(--border);line-height:1.5}
+
+.no-anom{background:var(--bg-elevated);border-left:4px solid var(--green);padding:14px 18px;margin:14px 0;border-radius:8px;color:var(--text-dim);font-size:13px}
+</style>
+</head>
+<body>
+
+<h1>Anomscanner — Plain Report</h1>
+<div class="meta">June 23, 2026 · Tuesday · T = Jun 22, 2026 close</div>
+<div class="scope">Universe scanned: 26 names (26 open positions) · Source: Yahoo Finance (price/volume/trend) · options layer not configured</div>
+
+<div class="tek-cumlede">
+Two portfolio holdings — TSLA and VRT — triggered anomaly flags on 2026-06-23 with outsized sector-relative declines, active death-cross / technical breakdown signals, and high portfolio-impact scores, warranting manual review of stop levels and position sizing.
+</div>
+
+<div class="legend">
+<strong>How to read:</strong>
+<span class="r">RED</span> = tighten stop / trim / take profit · real risk in the position ·
+<span class="a">AMBER</span> = watch / don't add yet / mixed — wait for trigger ·
+<span class="g">GREEN</span> = healthy trend / hold. Each card shows a <strong>single action label</strong> at the top, then what happened, then what to do, with technical evidence in the grey "detail" at the bottom.
+</div>
+
+<h2>Above-threshold anomalies (by Portfolio Impact Score)</h2>
+<div class="card r">
+  <div class="top">
+    <span class="tk">TSLA</span>
+    <span class="co">XLY</span>
+    <span class="pill r">REAL RISK · TIGHTEN STOP</span>
+  </div>
+  <div class="pillrow"><span class="minipill">Anomaly <strong>47</strong>/100 · 🔴 Caution</span><span class="minipill">Impact <strong>90</strong> · <strong>12.7%</strong> weight × 1.5× direction (threat)</span><span class="minipill">Position: 135 × $389.99 ≈ $52,897</span></div>
+  <div class="row"><div class="lbl">Situation:</div><div class="val">TSLA closed at $389.99, down -3.72% versus XLY's -0.68%, a sector-relative underperformance of roughly 3 pp on anomaly score 47 and impact score 90 — the highest impact name in today's scan. The stock is trading beneath both its 50-day ($404.50) and 200-day ($417.58) SMAs and is in an active death cross, placing it in a structurally weakened trend context.</div></div>
+  <div class="row"><div class="lbl">What to do:</div><div class="val">Given the death cross, below-SMA50 close, and the position's 12.7% portfolio weight with $52,897 market value, a manual trendcheck is warranted: verify whether the current stop sits above the 52-week low ($288.77) and consider tightening it toward recent structure. No additions are appropriate until price reclaims SMA50; a trim to reduce concentration risk deserves consideration if the stop is breached.</div></div>
+  <div class="detay">
+    <strong>Evidence (DATA → EVENT → IMPACT):</strong>
+    <div class="kanit">• <b>today_ret_pct -3.72% vs XLY -0.68%</b> → sector-relative gap of ~3 pp DATA: stock-specific selling pressure EVENT: anomaly score 47 triggered IMPACT: largest single-day drag among held names</div><div class="kanit">• <b>z_rel -1.43</b> → return is 1.43 standard deviations below the sector's distribution DATA: statistically unusual underperformance EVENT: confirms move is not simply sector rotation IMPACT: reinforces need for manual review</div><div class="kanit">• <b>death_cross = true, below_sma50 = true, close $389.99 vs SMA50 $404.50 vs SMA200 $417.58</b> → price is below both moving averages with a confirmed death cross DATA: bearish structural trend EVENT: no near-term mechanical support from either MA IMPACT: trend context is negative; any bounce faces two layers of MA resistance</div><div class="kanit">• <b>gap_atr 0.67</b> → today's gap represented 0.67× ATR DATA: meaningful but not extreme gap down EVENT: suggests an intraday catalyst or overnight gap contributed to the decline IMPACT: gap-fills are uncertain; do not assume mean reversion</div><div class="kanit">• <b>weight_pct 12.7%, impact 90, pos_value $52,897</b> → largest position by both weight and impact score DATA: concentration risk is elevated EVENT: each additional 1% decline costs roughly $529 in portfolio value IMPACT: risk-adjusted priority for stop review is highest among all flagged names</div><div class="kanit">• <b>vol_ratio 0.17</b> → volume was below typical levels DATA: selling was not accompanied by a volume surge EVENT: could indicate passive/systematic rather than panic liquidation IMPACT: watch for a volume expansion day which would confirm distribution; options data is unavailable so flow context cannot be assessed</div>
+  </div>
+</div>
+<div class="card a">
+  <div class="top">
+    <span class="tk">VRT</span>
+    <span class="co">XLI</span>
+    <span class="pill a">WATCH · NO ADD</span>
+  </div>
+  <div class="pillrow"><span class="minipill">Anomaly <strong>46</strong>/100 · 🟡 Caution</span><span class="minipill">Impact <strong>6</strong> · <strong>0.8%</strong> weight × 1.5× direction (threat)</span><span class="minipill">Position: 10 × $325.86 ≈ $3,259</span></div>
+  <div class="row"><div class="lbl">Situation:</div><div class="val">VRT dropped -8.97% to $325.86 against XLI's -1.55%, generating z_rel of -2.41 — a statistically significant outlier move at anomaly score 46. Despite the sharp single-day decline the stock remains fractionally above its 50-day SMA ($323.56) and well above the 200-day ($226.10), so the longer-term trend structure has not yet been broken.</div></div>
+  <div class="row"><div class="lbl">What to do:</div><div class="val">The -8.97% single-day move deserves a manual look to verify whether an earnings pre-announcement, guidance revision, or sector-specific catalyst drove the gap (gap_atr 0.90 confirms an ATR-scale move). With position weight at only 0.8% and impact score 6, the portfolio-level damage is contained; no stop-tightening is urgent, but adding before the cause of the gap is understood would be premature. Monitor whether price holds above SMA50 ($323.56) on the next session.</div></div>
+  <div class="detay">
+    <strong>Evidence (DATA → EVENT → IMPACT):</strong>
+    <div class="kanit">• <b>today_ret_pct -8.97% vs XLI -1.55%</b> → sector-relative underperformance of ~7.4 pp DATA: extreme single-day divergence from industrials peers EVENT: anomaly score 46, nearly matching TSLA despite smaller position IMPACT: move is statistically unusual and deserves cause identification before acting</div><div class="kanit">• <b>z_rel -2.41, z_abs -2.38</b> → move is more than 2.4 standard deviations below both absolute and relative distributions DATA: rare event in normal return distributions EVENT: suggests an idiosyncratic catalyst rather than broad market pressure IMPACT: reinforces the need for a manual news/event check</div><div class="kanit">• <b>gap_atr 0.90</b> → gap equivalent to 0.90× ATR DATA: nearly a full ATR gap down at the open or intraday EVENT: consistent with a news or earnings-related dislocation IMPACT: recovery timeline is uncertain without knowing the catalyst</div><div class="kanit">• <b>below_sma50 = false, death_cross = false, SMA50 $323.56 vs close $325.86</b> → price closed only $2.30 above SMA50 DATA: trend structure technically intact but hanging by a thin margin EVENT: a follow-through down day would break SMA50 support IMPACT: next session close is a key binary for trend assessment</div><div class="kanit">• <b>weight_pct 0.8%, impact 6, pos_value $3,259</b> → small position limits portfolio damage DATA: low concentration reduces urgency EVENT: risk is manageable at current size IMPACT: no immediate forced action required; watchlist priority is appropriate</div><div class="kanit">• <b>vol_ratio 0.43</b> → volume was 43% of a typical session DATA: below-average volume on a large decline EVENT: could indicate thin liquidity amplified the move or early-session gap with limited follow-through IMPACT: watch for volume confirmation on next session; options data is unavailable so gamma or flow context cannot be assessed</div>
+  </div>
+</div>
+<h2>Below-threshold watch (not included in the report)</h2>
+<div style="font-size:12.5px;color:var(--text-dim);background:var(--bg-elevated);border:1px solid var(--border);border-radius:8px;padding:12px 14px;line-height:1.7">
+Ten names fell below the anomaly threshold and were not promoted to full cards. SNPS (+2.67% vs XLK -2.80%, z_rel +2.38) was the standout positive outlier — a notable counter-trend gain on below-average volume (vol_ratio 0.12) that could signal rotation into defensive semis or a name-specific catalyst; it deserves a watchlist note despite still trading below SMA50 ($482.15). NOW (+2.48% vs XLK -2.80%) similarly bucked its sector but remains in a death cross and deeply below SMA200 ($135.90), limiting confidence in the bounce; its 0.2% portfolio weight makes impact negligible. NVDA (-2.47% vs SMH -5.11%, z_rel +1.35) actually outperformed its semiconductor ETF meaningfully — the relative resilience is encouraging for the largest-impact below-threshold name (impact 136, weight 26.7%), though it sits below SMA50 ($210.10) and warrants continued trend monitoring given its concentration. MU (-9.25% vs SMH -5.11%, z_rel -1.29) showed an ATR-scale gap (gap_atr 1.33) and notable excess sector-relative weakness on anomaly score 33; although below threshold, the absolute magnitude of the move and an above-SMA50 position that could be threatened merit a watchlist flag. EOSE (-3.41% vs XLE -0.03%) is in a death cross, below SMA50, and trading well below its 52-week mean with declining trend (SMA50 $7.32 vs SMA200 $10.69); low weight (2.2%) and sub-threshold anomaly (31) keep it off the main card but the structural deterioration is a persistent concern. CLS (-5.81% vs XLK -2.80%) extended its slide below SMA50 ($386.55) on below-average volume (vol_ratio 0.15); anomaly score 30 just missed the threshold. ANET (-6.44% vs XLK -2.80%, z_abs -1.79) nearly hit threshold with a large ATR gap (0.99) yet remains above SMA50 ($159.42), preserving near-term structure; the 5.0% weight and impact of 22 make it the most consequential below-threshold name after NVDA and warrants continued monitoring. ASML (-6.47% vs SMH -5.11%, z_abs -2.02) produced a statistically significant absolute move but its sector also fell sharply; its 0.6% weight limits portfolio impact (score 3). POWL (-5.35% vs XLI -1.55%, anomaly 27) and BE (-7.39% vs XLE -0.03%, anomaly 26) both showed sector-relative weakness but their combined weight is only 1.6% and neither triggered the anomaly threshold; BE's gap_atr of 1.33 and sharp sector divergence are worth monitoring if the move extends. No options_light data was provided for any below-threshold name, so early-warning IV or flow signals cannot be assessed.
+</div>
+
+<div class="foot">
+<strong>Above threshold today:</strong> TSLA (47) · VRT (46)<br><strong>Data status:</strong> Yahoo Finance price/volume/technicals pulled for all 26 names. All numbers from the T close. Options/derivatives layer (gamma/IV/flow/max pain) not configured (price/volume/trend only).
+</div>
+
+<div class="glossary">
+<h3>Glossary of Terms</h3>
+<dl>
+<dt>Anomaly Score (0-100)</dt>
+<dd>A composite score summarizing how "unusual" a name is; ≥40 deserves a manual look (a signal, not a certainty).</dd>
+<dt>Portfolio Impact Score</dt>
+<dd>Anomaly × position weight (%) × direction effect (against the position = 1.5; same direction = 1.0). Highlights the names that can really affect the portfolio.</dd>
+<dt>z-score (absolute)</dt>
+<dd>How many standard deviations a move is from that stock's normal over roughly the last ~60 days; |z|≥2 "unusual", ≥3 "very rare".</dd>
+<dt>relative z-score</dt>
+<dd>The z-score of the difference between the stock's return and its sector ETF's return; separates a stock-specific anomaly from a sector move.</dd>
+<dt>vol_ratio (volume ratio)</dt>
+<dd>Today's volume relative to the average of the last 20 days; 3× and above is a "volume burst", over 2× warrants attention.</dd>
+<dt>50/200-day average (SMA50/SMA200)</dt>
+<dd>The long-term skeleton of the trend structure; if price moves below the 50d the "short-term trend is weak", if the 50d is below the 200d it is a "death cross / downtrend".</dd>
+<dt>IV (implied volatility)</dt>
+<dd>The expected volatility implied by option prices; annualized as a percentage — e.g. IV=1.0 → 100% annualized volatility expectation (typical before earnings).</dd>
+<dt>gamma / GEX</dt>
+<dd>The tendency of dealer hedging pressure to pull price toward certain levels "like a magnet"; if net GEX is positive moves are dampened, if negative volatility increases.</dd>
+<dt>max pain</dt>
+<dd>The level price tends to gravitate toward at option expiry; if spot is near it there is "pin/squeeze" risk, if far away the magnet is weak.</dd>
+<dt>flow</dt>
+<dd>Option order flow; if it is weighted to one direction with a high volume/open-interest ratio it is "abnormal flow". ASK side = buyers paid premium; BID side = sellers received premium.</dd>
+<dt>vol/OI ratio</dt>
+<dd>Single-day trade volume / current open interest. &gt;1 signals new positioning (but OI is confirmed the next morning).</dd>
+<dt>dark pool</dt>
+<dd>Large institutional trades that change hands on hidden platforms off the exchange order book; large prints are a proxy for institutional buying/selling.</dd>
+<dt>quad witching</dt>
+<dd>The large option and futures expiry that comes once a quarter (the third Friday); option flow around those days is technical positioning, not an anomaly.</dd>
+<dt>accumulation / distribution</dt>
+<dd>Quiet gathering of buyers / unloading by sellers — high-volume buying with price flat/up = accumulation, high-volume selling with price flat/down = distribution.</dd>
+<dt>good news / bad price</dt>
+<dd>If a stock falls on a positive-news day → a distribution warning (the market already priced it in, or a large player is exiting). The opposite → bullish resilience.</dd>
+<dt>binary event</dt>
+<dd>An event whose outcome is unknown in advance and is certain to move price sharply (earnings, FDA decision, court ruling); should not be sized up ahead of the risk.</dd>
+<dt>playbook</dt>
+<dd>A pre-written action protocol for each anomaly type; a rule-based stance instead of an emotional decision.</dd>
+</dl>
+</div>
+
+<div class="disclaimer">
+<strong>Disclaimer:</strong> This report is not investment advice. An anomaly = a statistically unusual move; it does not mean "manipulation" or "certainty", it only says "this deserves a manual look". Anomscanner detects and routes you to the right skill (porttech, protect, tradesetups, trendcheck) for deep analysis/action. All numbers are from the June 17, 2026 close (T); price action may change with the Jun 18 open. It relies on the FMP/FMO + Unusual Whales live data sources; where data is missing, the "unverified" discipline applies.
+</div>
+
+<script>(function(){document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest('a[href^="#"]');if(!a)return;var id=a.getAttribute("href").slice(1);if(!id)return;var t=document.getElementById(id);if(t){e.preventDefault();t.scrollIntoView({behavior:"smooth",block:"start"});}});})();</script>
+<script>(function(){try{
+var KT=new Set(["SAIL","FIVN","VRNS","RBRK","ANET","CSCO","ATEN","QLYS","S","AKAM","GTLB","FTNT","OKTA","CRWD","PANW","CHKP","NET","ZS","TENB","RPD","CISO","FCEL","CHPT","BLNK","BE","CLNE","RUN","GEVO","NEE","BLDP","EVGO","FLNC","AMSC","CSIQ","ARRY","SPWR","PLUG","SHLS","TE","ENPH","FSLR","SEDG","AMKR","KLIC","CGNX","LSCC","SLAB","SNPS","CDNS","FLEX","QCOM","TXN","NVDA","AMAT","ADI","COHU","CRUS","DIOD","TTMI","UCTT","NXPI","SYNA","MKSI","ACMR","AVGO","AMBA","QRVO","MU","POWI","TER","AEIS","CEVA","ON","SWKS","FEAM","FORM","ENTG","AMD","VIAV","SMTC","COHR","KLAC","INTC","RMBS","ASYS","WOLF","MRVL","AEHR","AXTI","TWST","MRNA","VCYT","DTIL","SGMO","PACB","SDGR","GERN","ABBV","AGIO","BEAM","BMRN","AMGN","ARWR","ARVN","CAI","CRSP","ALLO","BIIB","ILMN","ALNY","ABCL","NTLA","ARCT","RXRX","TEM","EDIT","ADCT","FATE","BEEM","EOSE","FSI","CENN","CBAT","CLSK","FLUX","CRGY","TSLA","ALB","LAC","AREC","QS","LCID","RIVN","ENVX","AMPX","VST","UROY","XE","CEG","BWXT","DNN","GEV","CCJ","NXE","UEC","UUUU","URG","ASPI","NNE","OKLO","LEU","SMR","LTBR","GDDY","VEEV","GOOG","ADBE","BOX","GOOGL","DOCU","BILL","WIX","AMZN","SNOW","DDOG","MDB","HUBS","CRM","MSFT","ZM","NOW","ORCL","ESTC","DOCN","TEAM","FSLY","ABT","EMR","ADSK","MBLY","ROK","ISRG","NOVT","EMBC","GRMN","AXON","KEYS","AVAV","PATH","GD","RTX","NOC","LMT","TDY","BA","CDRE","KTOS","ACHR","VSAT","IRDM","RKLB","ASTS","SPIR","PL","LUNR","SPCX","NBIS","DXYZ","IREN","VICR","VRT","AOSL","STM","NVTS","MPWR","CRWV","VELO","SOFI","SATS","LIN","APD","TMUS","OPTX","SATL","SPCE","FLY","BKSY","ALAB","RDW","ANY","SHAZ","BTBT","HUT","RIOT","CIFR","APLD","CORZ","WULF","MARA","BRUN","SMCI","TRT","HUBB","CMI","PRIM","NRG","CAT","ETN","TGEN","FPS","BTDR","PWR","MYRG","MTZ","EME","NVT","HPE","GNRC","POWL","SGML","IESC","META","AAPL","AIP","LRCX","CRDO","WDC","STX","CBRS","MCHP","SNDK","PENG","MRAM","ONTO","PLAB","ACLS","JBL","LPTH","ADTN","MXL","SANM","MTSI","GFS","ALMU","GLW","TSEM","FN","LWLG","CIEN","LITE","VECO","AAOI","POET","CAMT","ASML","CACI","LDOS","PLTR","BBAI","ONDS","MRCY","RCAT","TECK","HBM","SCCO","ARIS","FCX","FERG","AA","CENX","IDR","ATI","MP","TMQ","UAMY","USAR","CRML","ESAB","IR","GE","MMM","PH","DE","AVY","ITW","HON","DOV","AME","AGCO","CARR","FLR","JCI","PLXS","APH","AISP","APTV","AEYE","GEHC","VPG","OUST","SERV","AEVA","BOT","ARQQ","IBM","XNDU","IONQ","QBTS","QUBT","RGTI","INFQ","HAWK","BAER","GILT","SIDU","BZAI","SITM"]);var STOP=new Set(["AI"]);
+function ok(t){return t.length>=2&&KT.has(t)&&!STOP.has(t);}
+var skip={A:1,SCRIPT:1,STYLE:1,BUTTON:1,INPUT:1,TEXTAREA:1,SELECT:1,OPTION:1,CODE:1};
+if(!document.body)return;
+var w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,null),nodes=[],n;
+while(n=w.nextNode()){var p=n.parentNode,bad=false;while(p&&p!==document.body){if(skip[p.nodeName]){bad=true;break;}p=p.parentNode;}if(!bad&&/[A-Z]{2,6}/.test(n.nodeValue))nodes.push(n);}
+nodes.forEach(function(node){var t=node.nodeValue,re=/\b[A-Z]{2,6}\b/g,last=0,m,frag=document.createDocumentFragment(),any=false;
+while(m=re.exec(t)){var tk=m[0];if(!ok(tk))continue;any=true;if(m.index>last)frag.appendChild(document.createTextNode(t.slice(last,m.index)));
+var a=document.createElement('a');a.href='https://stockanalysis.com/stocks/'+tk+'/';a.target='_blank';a.rel='noopener noreferrer';a.textContent=tk;a.title=tk+' — stockanalysis.com';a.style.color='inherit';a.style.textDecoration='underline';a.style.textDecorationStyle='dotted';a.style.textUnderlineOffset='2px';
+frag.appendChild(a);last=m.index+tk.length;}
+if(any){if(last<t.length)frag.appendChild(document.createTextNode(t.slice(last)));node.parentNode.replaceChild(frag,node);}});
+}catch(e){}})();</script>
+
+<!--GLOSSARY_MOTOR_V1-->
+<style>.term{color:#5aa2ff;border-bottom:1px dotted #5aa2ff;cursor:pointer}
+.term:hover{background:rgba(90,162,255,.14)}
+.glossary-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px 18px}
+.glossary-term{font-size:12.5px;padding:7px 9px;border-radius:8px;border:1px solid transparent;border-bottom:1px solid rgba(255,255,255,.12);color:inherit}
+.glossary-term b{color:#5cd986}
+.glossary-term.hl{border-color:#5aa2ff;background:rgba(90,162,255,.10)}
+#balloon{display:none;position:fixed;max-width:260px;background:#0f1722;border:1px solid #5aa2ff;border-radius:8px;padding:10px 12px;font-size:12.5px;line-height:1.55;color:#e6edf6;z-index:99999;box-shadow:0 6px 22px rgba(0,0,0,.55)}
+@media(max-width:680px){.glossary-grid{grid-template-columns:1fr}}</style>
+<script>
+var SOZLUK=[{"k":"SPY","t":"SPY (S&P 500)","d":"The largest ETF tracking the S&P 500 — the U.S. large-cap index."},{"k":"QQQ","t":"QQQ (Nasdaq-100)","d":"Nasdaq-100 ETF — mostly large technology companies."},{"k":"IWM","t":"IWM (Russell 2000)","d":"Russell 2000 ETF — U.S. small-cap companies."},{"k":"DIA","t":"DIA (Dow 30)","d":"ETF tracking the Dow Jones 30 index."},{"k":"RSP","t":"RSP (Equal Weight)","d":"The equal-weighted version of the S&P 500 — reduces the mega-cap effect."},{"k":"XLK","t":"XLK (Technology)","d":"Technology sector ETF."},{"k":"XLF","t":"XLF (Financials)","d":"Financials sector ETF."},{"k":"XLV","t":"XLV (Health Care)","d":"Health Care sector ETF."},{"k":"XLE","t":"XLE (Energy)","d":"Energy sector ETF."},{"k":"XLY","t":"XLY (Consumer Discretionary)","d":"Consumer Discretionary sector ETF."},{"k":"XLP","t":"XLP (Consumer Staples)","d":"Consumer Staples sector ETF."},{"k":"XLI","t":"XLI (Industrials)","d":"Industrials sector ETF."},{"k":"XLC","t":"XLC (Communication)","d":"Communication Services sector ETF."},{"k":"XLU","t":"XLU (Utilities)","d":"Utilities/infrastructure sector ETF."},{"k":"XLB","t":"XLB (Materials)","d":"Materials sector ETF."},{"k":"XLRE","t":"XLRE (Real Estate)","d":"Real Estate sector ETF."},{"k":"VIX","t":"VIX","d":"The stock market's fear index. High = panic, low = calm."},{"k":"VVIX","t":"VVIX","d":"The volatility of the VIX itself — the fear of fear."},{"k":"VIX9D","t":"VIX9D","d":"9-day expected volatility; a measure of very short-term stress."},{"k":"VIX3M","t":"VIX3M","d":"3-month expected volatility; the medium-term volatility expectation."},{"k":"MOVE","t":"MOVE Index","d":"The bond market's fear index (the VIX for bonds)."},{"k":"AAII","t":"AAII Bull/Bear","d":"Retail investor optimism/pessimism survey."},{"k":"NAAIM","t":"NAAIM","d":"The average equity exposure of active managers (0-200); shows risk appetite."},{"k":"CNN F&G","t":"CNN Fear & Greed","d":"The CNN Fear & Greed Index (0-100) — 0 extreme fear, 100 extreme greed."},{"k":"risk appetite","t":"Risk Appetite","d":"Investors' tendency to move into risky assets (opposite: risk aversion)."},{"k":"CPI","t":"CPI","d":"Consumer Price Index — the price rise of goods and services the public buys."},{"k":"PCE","t":"PCE","d":"Personal Consumption Expenditures price index — the Fed's favorite inflation gauge."},{"k":"PPI","t":"PPI","d":"Producer Price Index — factory-gate prices; a leading indicator of consumer inflation."},{"k":"GDPNow","t":"GDPNow","d":"The Atlanta Fed's daily-updated GDP (growth) estimate."},{"k":"5Y5Y","t":"5Y5Y Forward Inflation","d":"The market's inflation expectation for the 5 years starting 5 years from now; being anchored is a sign of confidence."},{"k":"ISM Manufacturing PMI","t":"ISM Manufacturing PMI","d":"Factory managers' survey; above 50 growth, below 50 contraction."},{"k":"ISM Services PMI","t":"ISM Services PMI","d":"The same survey for the services sector (the larger part of the economy)."},{"k":"soft landing","t":"Soft Landing","d":"Inflation coming down without a recession."},{"k":"NFP","t":"NFP","d":"Nonfarm Payrolls — the number of jobs created in the U.S. in a month."},{"k":"JOLTS","t":"JOLTS","d":"Number of job openings; shows the strength of labor demand."},{"k":"Wage Growth","t":"Wage Growth","d":"The annual rise in average hourly earnings; can feed inflation."},{"k":"Michigan","t":"Michigan Sentiment","d":"A survey measuring the consumer's view of the economy."},{"k":"Retail Sales","t":"Retail Sales","d":"Total store and online spending; consumer strength."},{"k":"Fed Funds","t":"Fed Funds","d":"The policy rate set by the Fed — the anchor for all rates."},{"k":"FOMC","t":"FOMC","d":"The Fed's Open Market Committee that sets the rate decision."},{"k":"FedWatch","t":"FedWatch","d":"Rate-change probability derived from the futures market."},{"k":"Yield Curve","t":"Yield Curve","d":"The difference between short- and long-term rates; if it inverts it is a recession signal."},{"k":"yield curve","t":"Yield Curve","d":"The difference between short- and long-term rates; if it inverts it is a recession signal."},{"k":"Real Rate","t":"Real Rate (TIPS)","d":"The true rate adjusted for inflation; the most important macro signal."},{"k":"real rate","t":"Real Rate (TIPS)","d":"The true rate adjusted for inflation; the most important macro signal."},{"k":"DXY","t":"DXY","d":"Dollar Index — the dollar's strength against other major currencies."},{"k":"SOFR","t":"SOFR","d":"Banks' overnight borrowing rate; a funding-stress indicator."},{"k":"NFCI","t":"NFCI","d":"Chicago Fed Financial Conditions Index; negative = loose/easy conditions."},{"k":"hawkish","t":"Hawkish / Dovish","d":"A tendency to raise rates (hawkish/tight) or cut them (dovish/easy)."},{"k":"basis point","t":"Basis Point (bp)","d":"1/100 of a percentage point (0.01%)."},{"k":"Mortgage","t":"30Y Mortgage","d":"The 30-year home loan rate."},{"k":"Case-Shiller","t":"Case-Shiller","d":"U.S. home-price index."},{"k":"HY Credit","t":"HY Credit Spread","d":"The extra yield of risky corporate bonds over government bonds; narrow is a sign of health."},{"k":"HYG","t":"HYG (HY Credit)","d":"High-yield corporate bond ETF; rising means risk appetite, falling signals credit stress."},{"k":"NY Fed","t":"NY Fed Recession Model","d":"A recession-probability estimate from the yield curve."},{"k":"SAAR","t":"SAAR","d":"Seasonally Adjusted Annual Rate of sales (auto)."},{"k":"Dealer gamma","t":"Dealer Gamma (GEX)","d":"The position of option dealers; if negative, moves get amplified."},{"k":"dealer gamma","t":"Dealer Gamma (GEX)","d":"The position of option dealers; if negative, moves get amplified."},{"k":"GEX","t":"Dealer Gamma (GEX)","d":"The net gamma position of option dealers; if negative moves get amplified, if positive they dampen."},{"k":"max pain","t":"Max Pain","d":"The price at which the most options expire worthless at expiry; a magnet that pulls price."},{"k":"contango","t":"Contango","d":"In the term structure, the long end being more expensive than the short end — calm/normal."},{"k":"backwardation","t":"Backwardation","d":"The short end being more expensive than the long end — a sign of acute stress."},{"k":"gamma flip","t":"Gamma Flip","d":"The price level where dealer gamma turns from positive to negative."},{"k":"positive gamma","t":"Positive Gamma","d":"A regime where dealers dampen moves; price is calm, dips get bought."},{"k":"negative gamma","t":"Negative Gamma","d":"A regime where dealers amplify moves; declines accelerate, volatility rises."},{"k":"reflexive","t":"Reflexive Regime","d":"An environment (negative gamma) where the price move feeds and amplifies itself."},{"k":"strike","t":"Strike (Exercise Price)","d":"The price level at which an option can be exercised."},{"k":"call wall","t":"Call Wall","d":"An upper level with heavy call-option buildup; acts like resistance/a ceiling for price."},{"k":"put wall","t":"Put Wall","d":"A lower level with heavy put-option buildup; acts like support/a floor for price."},{"k":"term structure","t":"Term Structure","d":"The arrangement of VIX across different expiries; normally the long end is more expensive (contango)."},{"k":"kink","t":"Kink (Term-Structure Bend)","d":"A sudden bend in the term structure; a sign of risk concentrated on a specific date."},{"k":"implied volatility","t":"Implied Volatility (IV)","d":"The expected volatility derived from option prices."},{"k":"IV","t":"Implied Volatility (IV)","d":"The expected volatility derived from option prices."},{"k":"realized volatility","t":"Realized Volatility (RV)","d":"The volatility that actually occurred in the past; its gap with IV shows whether premium is expensive/cheap."},{"k":"RV","t":"Realized Volatility (RV)","d":"The volatility that actually occurred in the past; its gap with IV shows whether premium is expensive/cheap."},{"k":"Delta","t":"Delta","d":"How much the option price changes when the underlying moves 1 unit."},{"k":"OTC swap","t":"OTC Swap","d":"An over-the-counter, bank-to-bank derivative agreement that does not appear on the exchange."},{"k":"internalize","t":"Internalization","d":"A bank matching customer orders in-house without sending them to the exchange."},{"k":"0DTE","t":"0DTE","d":"Options expiring the same day; a source of sharp intraday moves."},{"k":"OPEX","t":"OPEX (Expiry Day)","d":"The day options expire en masse; position unwinds create volatility."},{"k":"opex","t":"OPEX (Expiry Day)","d":"The day options expire en masse; position unwinds create volatility."},{"k":"triple witching","t":"Triple Witching","d":"Index, stock options and futures expiring on the same day; volume and volatility rise."},{"k":"skew","t":"Skew","d":"How much more expensive downside protection is than the upside; the price of fear."},{"k":"Put/Call","t":"Put/Call Ratio","d":"The ratio of traded put/call volume; high means fear/hedging, low means optimism."},{"k":"P/C","t":"Put/Call Ratio","d":"The ratio of traded put/call volume; high means fear/hedging, low means optimism."},{"k":"Vanna","t":"Vanna","d":"How the dealer's delta-hedge need changes as volatility changes; can accelerate a trend."},{"k":"Charm","t":"Charm","d":"How delta drifts as time passes; creates hedging flow as expiry approaches."},{"k":"dealer hedge","t":"Dealer Hedge","d":"The buying/selling option sellers do in the underlying to balance their risk."},{"k":"CTA","t":"CTA","d":"Trend-following leveraged funds; buy/sell en masse according to momentum."},{"k":"distribution day","t":"Distribution Day","d":"A day the index falls on high volume — a trace of institutional selling; 5+ stacking up is pressure."},{"k":"breadth","t":"Breadth","d":"The prevalence of rising stocks; broad participation means a healthy advance."},{"k":"200-day","t":"200-Day Average","d":"The long-term trend line; if price is above it, an uptrend."},{"k":"50-day","t":"50-Day Average","d":"The medium-term trend line (50-day moving average)."},{"k":"RSI","t":"RSI","d":"Relative Strength Index (0-100) — above 70 overbought, below 30 oversold."},{"k":"MACD","t":"MACD","d":"The difference of two moving averages; a momentum and trend-reversal signal."},{"k":"Weinstein","t":"Weinstein Stage","d":"The 4 phases of a trend: base (1), advance (2), top (3), decline (4)."},{"k":"Death Cross","t":"Death Cross","d":"The 50-day average crossing below the 200-day — a bearish signal."},{"k":"beta","t":"Beta","d":"The stock's volatility relative to the market (1.0 = market, 1.5 = 50% more volatile)."},{"k":"Inverse ETF","t":"Inverse ETF","d":"An inverse ETF — a fund that gains value when the index falls (e.g. SH, SQQQ)."},{"k":"Protective Put","t":"Protective Put","d":"A protective put option — like insurance for a stock you own."},{"k":"Collar","t":"Collar","d":"A low/zero-cost protection strategy made by buying a put and selling a call."},{"k":"Put Spread","t":"Put Spread","d":"You buy a put and sell a put at a lower level; cost falls but protection stays limited."},{"k":"put spread","t":"Put Spread","d":"You buy a put and sell a put at a lower level; cost falls but protection stays limited."},{"k":"IV Rank","t":"IV Rank","d":"Where the option volatility price sits in the last 1 year (0-100). Low = insurance cheap, high = expensive."},{"k":"Tail Hedge","t":"Tail Hedge","d":"Protection against low-probability but high-impact crashes (black swans)."},{"k":"Hedge","t":"Hedge","d":"An opposite-direction position taken to reduce portfolio risk (like insurance)."},{"k":"Dark Pool","t":"Dark Pool","d":"An off-exchange institutional trade pool — large prints reveal institutional moves."},{"k":"Strait of Hormuz","t":"Strait of Hormuz","d":"A critical sea passage through which ~20% of the world's oil passes."}];
+(function(){
+  if(!document.body) return;
+  var slug=function(s){return s.replace(/[^a-zA-Z0-9]/g,'')};
+  var defByT={}; SOZLUK.forEach(function(o){defByT[o.t]=o.d;});
+  var keys=SOZLUK.slice().sort(function(a,b){return b.k.length-a.k.length;});
+  var skip={A:1,SCRIPT:1,STYLE:1,TH:1,BUTTON:1,INPUT:1,TEXTAREA:1,SELECT:1,OPTION:1,CODE:1};
+  function shortKey(k){return /^[A-Za-z\/]{1,3}$/.test(k);}
+  function esc(s){return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');}
+  function findIdx(text,k){
+    if(!shortKey(k)) return text.indexOf(k);
+    var re=new RegExp('(^|[^A-Za-z0-9])'+esc(k)+'(?=[^A-Za-z0-9]|$)');
+    var m=re.exec(text); return m?m.index+m[1].length:-1;
+  }
+  var done={}, found=[];
+  keys.forEach(function(o){
+    if(done[o.t]) return;
+    var tw=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{acceptNode:function(n){
+      var p=n.parentNode;
+      while(p&&p!==document.body){
+        if(p.nodeName&&skip[p.nodeName]) return NodeFilter.FILTER_REJECT;
+        if(p.classList&&(p.classList.contains('term')||p.classList.contains('glossary-term'))) return NodeFilter.FILTER_REJECT;
+        if(p.id==='balloon'||p.id==='sozluk-grid') return NodeFilter.FILTER_REJECT;
+        p=p.parentNode;
+      }
+      return findIdx(n.nodeValue,o.k)>-1?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_SKIP;
+    }});
+    var node=tw.nextNode(); if(!node) return;
+    var idx=findIdx(node.nodeValue,o.k); if(idx<0) return;
+    var after=node.splitText(idx);
+    after.nodeValue=after.nodeValue.substring(o.k.length);
+    var span=document.createElement('span');
+    span.className='term'; span.textContent=o.k;
+    span.setAttribute('data-t',o.t); span.setAttribute('data-d',defByT[o.t]);
+    node.parentNode.insertBefore(span,after);
+    done[o.t]=1; found.push(o.t);
+  });
+  if(!found.length) return;
+  // INLINE ONLY: no bottom grid section is created. If the report provides its own
+  // #sozluk-grid we fill only that; otherwise no section is added.
+  var grid=document.getElementById('sozluk-grid');
+  if(grid){
+    var seenG={};
+    found.map(function(t){return {t:t,d:defByT[t]};})
+      .sort(function(a,b){return a.t.localeCompare(b.t,'en');})
+      .forEach(function(o){ if(seenG[o.t]) return; seenG[o.t]=1;
+        var d=document.createElement('div'); d.className='glossary-term'; d.id='g-'+slug(o.t);
+        d.innerHTML='<b>'+o.t+':</b> '+o.d; grid.appendChild(d);
+      });
+  }
+  var balloon=document.getElementById('balloon');
+  if(!balloon){ balloon=document.createElement('div'); balloon.id='balloon'; document.body.appendChild(balloon); }
+  var cur='';
+  function place(el){
+    var r=el.getBoundingClientRect(); balloon.style.display='block';
+    var w=Math.min(260,window.innerWidth-16); balloon.style.width=w+'px';
+    var left=Math.min(r.left,window.innerWidth-w-8); left=Math.max(8,left); balloon.style.left=left+'px';
+    var top=r.bottom+6; if(top+balloon.offsetHeight>window.innerHeight) top=r.top-balloon.offsetHeight-6;
+    balloon.style.top=Math.max(8,top)+'px';
+  }
+  function show(el){
+    balloon.innerHTML='<b style="color:#5aa2ff">'+el.getAttribute('data-t')+'</b><br>'+el.getAttribute('data-d');
+    place(el);
+    document.querySelectorAll('.glossary-term').forEach(function(g){g.classList.remove('hl')});
+    var gi=document.getElementById('g-'+slug(el.getAttribute('data-t'))); if(gi) gi.classList.add('hl');
+  }
+  function hide(){ balloon.style.display='none'; cur=''; }
+  document.querySelectorAll('.term').forEach(function(el){
+    el.addEventListener('mouseenter',function(){show(el);});
+    el.addEventListener('mouseleave',function(){if(cur!==el.getAttribute('data-t'))hide();});
+    el.addEventListener('click',function(e){e.stopPropagation();
+      var t=el.getAttribute('data-t'); if(cur===t){hide();} else {show(el);cur=t;}
+    });
+  });
+  document.addEventListener('click',hide);
+  window.addEventListener('scroll',function(){if(balloon.style.display==='block'&&cur){var a=document.querySelector('.term[data-t="'+cur+'"]');if(a)place(a);}});
+})();
+</script>
+
+</body>
+</html>

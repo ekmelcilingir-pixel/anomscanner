@@ -1,5 +1,14 @@
 [
   {
+    "filename": "anomscanner-2026-06-23-1782223327200.html",
+    "for_date": "2026-06-23",
+    "generated_at": "2026-06-23T14:02:07.200896+00:00",
+    "flagged": [
+      "TSLA",
+      "VRT"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-06-22-1782144835905.html",
     "for_date": "2026-06-22",
     "generated_at": "2026-06-22T16:13:55.906093+00:00",

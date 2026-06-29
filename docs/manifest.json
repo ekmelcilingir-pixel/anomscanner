@@ -1,5 +1,13 @@
 [
   {
+    "filename": "anomscanner-2026-06-29-1782745242614.html",
+    "for_date": "2026-06-29",
+    "generated_at": "2026-06-29T15:00:42.614712+00:00",
+    "flagged": [
+      "TSLA"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-06-26-1782480821715.html",
     "for_date": "2026-06-26",
     "generated_at": "2026-06-26T13:33:41.715746+00:00",

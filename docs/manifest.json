@@ -1,5 +1,13 @@
 [
   {
+    "filename": "anomscanner-2026-07-01-1782914038988.html",
+    "for_date": "2026-07-01",
+    "generated_at": "2026-07-01T13:53:58.989102+00:00",
+    "flagged": [
+      "SNPS"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-06-30-1782825926788.html",
     "for_date": "2026-06-30",
     "generated_at": "2026-06-30T13:25:26.789166+00:00",

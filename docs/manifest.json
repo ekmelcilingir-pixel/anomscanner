@@ -1,5 +1,16 @@
 [
   {
+    "filename": "anomscanner-2026-07-02-1782998405499.html",
+    "for_date": "2026-07-02",
+    "generated_at": "2026-07-02T13:20:05.500266+00:00",
+    "flagged": [
+      "MOD",
+      "VRT",
+      "POWL",
+      "NOW"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-07-01-1782914038988.html",
     "for_date": "2026-07-01",
     "generated_at": "2026-07-01T13:53:58.989102+00:00",

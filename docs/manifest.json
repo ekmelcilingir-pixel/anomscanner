@@ -1,5 +1,15 @@
 [
   {
+    "filename": "anomscanner-2026-07-03-1783084884788.html",
+    "for_date": "2026-07-03",
+    "generated_at": "2026-07-03T13:21:24.789133+00:00",
+    "flagged": [
+      "TSLA",
+      "POWL",
+      "EME"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-07-02-1782998405499.html",
     "for_date": "2026-07-02",
     "generated_at": "2026-07-02T13:20:05.500266+00:00",

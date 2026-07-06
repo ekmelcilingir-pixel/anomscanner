@@ -1,5 +1,14 @@
 [
   {
+    "filename": "anomscanner-2026-07-06-1783349049157.html",
+    "for_date": "2026-07-06",
+    "generated_at": "2026-07-06T14:44:09.157378+00:00",
+    "flagged": [
+      "TSLA",
+      "ANET"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-07-03-1783084884788.html",
     "for_date": "2026-07-03",
     "generated_at": "2026-07-03T13:21:24.789133+00:00",

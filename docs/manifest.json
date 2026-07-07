@@ -1,5 +1,14 @@
 [
   {
+    "filename": "anomscanner-2026-07-07-1783431457852.html",
+    "for_date": "2026-07-07",
+    "generated_at": "2026-07-07T13:37:37.852686+00:00",
+    "flagged": [
+      "VRT",
+      "XOM"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-07-06-1783349049157.html",
     "for_date": "2026-07-06",
     "generated_at": "2026-07-06T14:44:09.157378+00:00",

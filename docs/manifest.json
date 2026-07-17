@@ -1,5 +1,17 @@
 [
   {
+    "filename": "anomscanner-2026-07-17-1784292287797.html",
+    "for_date": "2026-07-17",
+    "generated_at": "2026-07-17T12:44:47.797506+00:00",
+    "flagged": [
+      "EOSE",
+      "CLS",
+      "AMPX",
+      "BE",
+      "TEM"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-07-16-1784207036162.html",
     "for_date": "2026-07-16",
     "generated_at": "2026-07-16T13:03:56.162275+00:00",

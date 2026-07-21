@@ -1,5 +1,13 @@
 [
   {
+    "filename": "anomscanner-2026-07-21-1784638655124.html",
+    "for_date": "2026-07-21",
+    "generated_at": "2026-07-21T12:57:35.125072+00:00",
+    "flagged": [
+      "TEM"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-07-20-1784554081470.html",
     "for_date": "2026-07-20",
     "generated_at": "2026-07-20T13:28:01.470910+00:00",

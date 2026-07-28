@@ -1,5 +1,17 @@
 [
   {
+    "filename": "anomscanner-2026-07-28-1785244375995.html",
+    "for_date": "2026-07-28",
+    "generated_at": "2026-07-28T13:12:55.995834+00:00",
+    "flagged": [
+      "SNPS",
+      "CDNS",
+      "CLS",
+      "ASML",
+      "NOW"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-07-27-1785160516689.html",
     "for_date": "2026-07-27",
     "generated_at": "2026-07-27T13:55:16.689773+00:00",

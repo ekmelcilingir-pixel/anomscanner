@@ -1,5 +1,28 @@
 [
   {
+    "filename": "anomscanner-2026-07-31-1785503759343.html",
+    "for_date": "2026-07-31",
+    "generated_at": "2026-07-31T13:15:59.343991+00:00",
+    "flagged": [
+      "AMD",
+      "TSLA",
+      "AAOI",
+      "ALAB",
+      "MU",
+      "SNPS",
+      "EOSE",
+      "BE",
+      "MOD",
+      "AMPX",
+      "STRL",
+      "EME",
+      "GRBK",
+      "TEM",
+      "POWL",
+      "NOW"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-07-30-1785416961166.html",
     "for_date": "2026-07-30",
     "generated_at": "2026-07-30T13:09:21.167327+00:00",

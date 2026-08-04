@@ -1,5 +1,17 @@
 [
   {
+    "filename": "anomscanner-2026-08-04-1785849410422.html",
+    "for_date": "2026-08-04",
+    "generated_at": "2026-08-04T13:16:50.422514+00:00",
+    "flagged": [
+      "AAOI",
+      "EOSE",
+      "VRT",
+      "TEM",
+      "POWL"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-08-03-1785765509486.html",
     "for_date": "2026-08-03",
     "generated_at": "2026-08-03T13:58:29.486650+00:00",

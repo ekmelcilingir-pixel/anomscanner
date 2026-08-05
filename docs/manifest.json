@@ -1,5 +1,19 @@
 [
   {
+    "filename": "anomscanner-2026-08-05-1785935628454.html",
+    "for_date": "2026-08-05",
+    "generated_at": "2026-08-05T13:13:48.454504+00:00",
+    "flagged": [
+      "MRVL",
+      "AAOI",
+      "EOSE",
+      "ALAB",
+      "STRL",
+      "POWL",
+      "AMGN"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-08-04-1785849410422.html",
     "for_date": "2026-08-04",
     "generated_at": "2026-08-04T13:16:50.422514+00:00",

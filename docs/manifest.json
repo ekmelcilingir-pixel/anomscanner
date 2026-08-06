@@ -1,5 +1,18 @@
 [
   {
+    "filename": "anomscanner-2026-08-06-1786021883359.html",
+    "for_date": "2026-08-06",
+    "generated_at": "2026-08-06T13:11:23.360113+00:00",
+    "flagged": [
+      "AMD",
+      "ANET",
+      "ALAB",
+      "AMPX",
+      "EOSE",
+      "AMGN"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-08-05-1785935628454.html",
     "for_date": "2026-08-05",
     "generated_at": "2026-08-05T13:13:48.454504+00:00",

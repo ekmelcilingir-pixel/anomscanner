@@ -1,5 +1,13 @@
 [
   {
+    "filename": "anomscanner-2026-08-11-1786450325065.html",
+    "for_date": "2026-08-11",
+    "generated_at": "2026-08-11T12:12:05.066044+00:00",
+    "flagged": [
+      "GRBK"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-08-10-1786363835351.html",
     "for_date": "2026-08-10",
     "generated_at": "2026-08-10T12:10:35.351585+00:00",

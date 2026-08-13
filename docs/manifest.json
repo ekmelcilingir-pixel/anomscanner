@@ -1,5 +1,14 @@
 [
   {
+    "filename": "anomscanner-2026-08-13-1786623959391.html",
+    "for_date": "2026-08-13",
+    "generated_at": "2026-08-13T12:25:59.391675+00:00",
+    "flagged": [
+      "CLS",
+      "BE"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-08-12-1786537564775.html",
     "for_date": "2026-08-12",
     "generated_at": "2026-08-12T12:26:04.775343+00:00",

@@ -1,5 +1,15 @@
 [
   {
+    "filename": "anomscanner-2026-08-19-1787140363040.html",
+    "for_date": "2026-08-19",
+    "generated_at": "2026-08-19T11:52:43.040989+00:00",
+    "flagged": [
+      "AAOI",
+      "AMPX",
+      "TEM"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-08-18-1787053986997.html",
     "for_date": "2026-08-18",
     "generated_at": "2026-08-18T11:53:06.997359+00:00",

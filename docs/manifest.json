@@ -1,5 +1,15 @@
 [
   {
+    "filename": "anomscanner-2026-08-21-1787313274733.html",
+    "for_date": "2026-08-21",
+    "generated_at": "2026-08-21T11:54:34.733959+00:00",
+    "flagged": [
+      "EOSE",
+      "TEM",
+      "HWM"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-08-20-1787226904558.html",
     "for_date": "2026-08-20",
     "generated_at": "2026-08-20T11:55:04.559177+00:00",

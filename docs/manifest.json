@@ -1,5 +1,17 @@
 [
   {
+    "filename": "anomscanner-2026-08-25-1787658981009.html",
+    "for_date": "2026-08-25",
+    "generated_at": "2026-08-25T11:56:21.009647+00:00",
+    "flagged": [
+      "TSLA",
+      "AAOI",
+      "EOSE",
+      "TEM",
+      "HWM"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-08-24-1787572579019.html",
     "for_date": "2026-08-24",
     "generated_at": "2026-08-24T11:56:19.019578+00:00",

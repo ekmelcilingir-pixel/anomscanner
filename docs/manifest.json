@@ -1,5 +1,14 @@
 [
   {
+    "filename": "anomscanner-2026-08-26-1787745502990.html",
+    "for_date": "2026-08-26",
+    "generated_at": "2026-08-26T11:58:22.991134+00:00",
+    "flagged": [
+      "SNPS",
+      "CDNS"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-08-25-1787658981009.html",
     "for_date": "2026-08-25",
     "generated_at": "2026-08-25T11:56:21.009647+00:00",

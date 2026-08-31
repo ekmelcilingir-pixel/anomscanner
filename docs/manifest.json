@@ -1,5 +1,14 @@
 [
   {
+    "filename": "anomscanner-2026-08-31-1788199556729.html",
+    "for_date": "2026-08-31",
+    "generated_at": "2026-08-31T18:05:56.729761+00:00",
+    "flagged": [
+      "TSLA",
+      "HWM"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-08-28-1787952534507.html",
     "for_date": "2026-08-28",
     "generated_at": "2026-08-28T21:28:54.507536+00:00",

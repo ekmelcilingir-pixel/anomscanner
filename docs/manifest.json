@@ -1,5 +1,14 @@
 [
   {
+    "filename": "anomscanner-2026-09-01-1788276703966.html",
+    "for_date": "2026-09-01",
+    "generated_at": "2026-09-01T15:31:43.966982+00:00",
+    "flagged": [
+      "CDNS",
+      "HWM"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-08-31-1788199556729.html",
     "for_date": "2026-08-31",
     "generated_at": "2026-08-31T18:05:56.729761+00:00",

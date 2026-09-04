@@ -1,5 +1,16 @@
 [
   {
+    "filename": "anomscanner-2026-09-04-1788534252013.html",
+    "for_date": "2026-09-04",
+    "generated_at": "2026-09-04T15:04:12.013649+00:00",
+    "flagged": [
+      "TSLA",
+      "SNPS",
+      "ALAB",
+      "CDNS"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-09-03-1788448125181.html",
     "for_date": "2026-09-03",
     "generated_at": "2026-09-03T15:08:45.181882+00:00",

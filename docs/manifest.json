@@ -1,5 +1,16 @@
 [
   {
+    "filename": "anomscanner-2026-09-14-1789405324671.html",
+    "for_date": "2026-09-14",
+    "generated_at": "2026-09-14T17:02:04.671396+00:00",
+    "flagged": [
+      "ALAB",
+      "CLS",
+      "VRT",
+      "ASML"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-09-11-1789139369511.html",
     "for_date": "2026-09-11",
     "generated_at": "2026-09-11T15:09:29.511866+00:00",

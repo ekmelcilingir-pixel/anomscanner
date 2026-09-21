@@ -1,5 +1,16 @@
 [
   {
+    "filename": "anomscanner-2026-09-21-1790010587739.html",
+    "for_date": "2026-09-21",
+    "generated_at": "2026-09-21T17:09:47.739587+00:00",
+    "flagged": [
+      "AMD",
+      "CDNS",
+      "MOD",
+      "XOM"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-09-18-1789743985929.html",
     "for_date": "2026-09-18",
     "generated_at": "2026-09-18T15:06:25.930043+00:00",

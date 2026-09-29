@@ -1,5 +1,13 @@
 [
   {
+    "filename": "anomscanner-2026-09-29-1790701125596.html",
+    "for_date": "2026-09-29",
+    "generated_at": "2026-09-29T16:58:45.597008+00:00",
+    "flagged": [
+      "MOD"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-09-28-1790620935763.html",
     "for_date": "2026-09-28",
     "generated_at": "2026-09-28T18:42:15.764079+00:00",

@@ -1,5 +1,16 @@
 [
   {
+    "filename": "anomscanner-2026-10-06-1791307335584.html",
+    "for_date": "2026-10-06",
+    "generated_at": "2026-10-06T17:22:15.584795+00:00",
+    "flagged": [
+      "TEM",
+      "STRL",
+      "GRBK",
+      "EME"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-10-05-1791229390021.html",
     "for_date": "2026-10-05",
     "generated_at": "2026-10-05T19:43:10.022090+00:00",

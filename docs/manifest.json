@@ -1,5 +1,15 @@
 [
   {
+    "filename": "anomscanner-2026-10-08-1791482284148.html",
+    "for_date": "2026-10-08",
+    "generated_at": "2026-10-08T17:58:04.149164+00:00",
+    "flagged": [
+      "AAOI",
+      "EOSE",
+      "MOD"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-10-07-1791395789054.html",
     "for_date": "2026-10-07",
     "generated_at": "2026-10-07T17:56:29.054427+00:00",

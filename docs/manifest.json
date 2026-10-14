@@ -1,5 +1,19 @@
 [
   {
+    "filename": "anomscanner-2026-10-14-1791993369419.html",
+    "for_date": "2026-10-14",
+    "generated_at": "2026-10-14T15:56:09.420337+00:00",
+    "flagged": [
+      "EOSE",
+      "MOD",
+      "STRL",
+      "GRBK",
+      "VRT",
+      "POWL",
+      "EME"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-10-13-1791916062512.html",
     "for_date": "2026-10-13",
     "generated_at": "2026-10-13T18:27:42.512855+00:00",

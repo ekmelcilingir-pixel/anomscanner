@@ -1,5 +1,17 @@
 [
   {
+    "filename": "anomscanner-2026-10-15-1792078921858.html",
+    "for_date": "2026-10-15",
+    "generated_at": "2026-10-15T15:42:01.858594+00:00",
+    "flagged": [
+      "ANET",
+      "CLS",
+      "VRT",
+      "GRBK",
+      "STRL"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-10-14-1791993369419.html",
     "for_date": "2026-10-14",
     "generated_at": "2026-10-14T15:56:09.420337+00:00",

@@ -1,5 +1,14 @@
 [
   {
+    "filename": "anomscanner-2026-10-21-1792598651506.html",
+    "for_date": "2026-10-21",
+    "generated_at": "2026-10-21T16:04:11.507122+00:00",
+    "flagged": [
+      "AMPX",
+      "VRT"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-10-20-1792511298276.html",
     "for_date": "2026-10-20",
     "generated_at": "2026-10-20T15:48:18.276786+00:00",

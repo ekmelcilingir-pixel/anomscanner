@@ -1,5 +1,23 @@
 [
   {
+    "filename": "anomscanner-2026-11-02-1793652706320.html",
+    "for_date": "2026-11-02",
+    "generated_at": "2026-11-02T20:51:46.321412+00:00",
+    "flagged": [
+      "MRVL",
+      "AMD",
+      "AAOI",
+      "MU",
+      "ALAB",
+      "GRBK",
+      "CLS",
+      "MOD",
+      "HWM",
+      "VRT",
+      "TEM"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-10-30-1793380004157.html",
     "for_date": "2026-10-30",
     "generated_at": "2026-10-30T17:06:44.158238+00:00",

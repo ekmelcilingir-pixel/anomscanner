@@ -1,5 +1,34 @@
 [
   {
+    "filename": "anomscanner-2026-11-05-1793904910435.html",
+    "for_date": "2026-11-05",
+    "generated_at": "2026-11-05T18:55:10.436226+00:00",
+    "flagged": [
+      "NVDA",
+      "TSLA",
+      "AMD",
+      "MRVL",
+      "ANET",
+      "MU",
+      "SNPS",
+      "AAOI",
+      "ALAB",
+      "AMPX",
+      "CDNS",
+      "CLS",
+      "BE",
+      "VRT",
+      "EOSE",
+      "ASML",
+      "TEM",
+      "STRL",
+      "MOD",
+      "EME",
+      "HWM",
+      "POWL"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-11-04-1793818045152.html",
     "for_date": "2026-11-04",
     "generated_at": "2026-11-04T18:47:25.152401+00:00",

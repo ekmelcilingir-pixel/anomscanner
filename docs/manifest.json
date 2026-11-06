@@ -1,5 +1,19 @@
 [
   {
+    "filename": "anomscanner-2026-11-06-1793989096533.html",
+    "for_date": "2026-11-06",
+    "generated_at": "2026-11-06T18:18:16.533556+00:00",
+    "flagged": [
+      "TSLA",
+      "AMD",
+      "ANET",
+      "AMPX",
+      "MOD",
+      "ASML",
+      "POWL"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-11-05-1793904910435.html",
     "for_date": "2026-11-05",
     "generated_at": "2026-11-05T18:55:10.436226+00:00",

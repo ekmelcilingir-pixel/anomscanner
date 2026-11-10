@@ -1,5 +1,15 @@
 [
   {
+    "filename": "anomscanner-2026-11-10-1794336386286.html",
+    "for_date": "2026-11-10",
+    "generated_at": "2026-11-10T18:46:26.286976+00:00",
+    "flagged": [
+      "NVDA",
+      "AAOI",
+      "GRBK"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-11-09-1794260145535.html",
     "for_date": "2026-11-09",
     "generated_at": "2026-11-09T21:35:45.536297+00:00",

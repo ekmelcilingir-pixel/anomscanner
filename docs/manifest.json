@@ -1,5 +1,14 @@
 [
   {
+    "filename": "anomscanner-2026-11-12-1794510228841.html",
+    "for_date": "2026-11-12",
+    "generated_at": "2026-11-12T19:03:48.842083+00:00",
+    "flagged": [
+      "NVDA",
+      "CLS"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-11-11-1794423042747.html",
     "for_date": "2026-11-11",
     "generated_at": "2026-11-11T18:50:42.748383+00:00",

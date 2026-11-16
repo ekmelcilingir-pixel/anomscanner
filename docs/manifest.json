@@ -1,5 +1,18 @@
 [
   {
+    "filename": "anomscanner-2026-11-16-1794863488949.html",
+    "for_date": "2026-11-16",
+    "generated_at": "2026-11-16T21:11:28.950089+00:00",
+    "flagged": [
+      "CDNS",
+      "AMPX",
+      "TEM",
+      "EOSE",
+      "VRT",
+      "POWL"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-11-13-1794595302999.html",
     "for_date": "2026-11-13",
     "generated_at": "2026-11-13T18:41:42.999705+00:00",

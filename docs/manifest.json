@@ -1,5 +1,14 @@
 [
   {
+    "filename": "anomscanner-2026-11-18-1795030248243.html",
+    "for_date": "2026-11-18",
+    "generated_at": "2026-11-18T19:30:48.243948+00:00",
+    "flagged": [
+      "AAOI",
+      "XOM"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-11-17-1794945517050.html",
     "for_date": "2026-11-17",
     "generated_at": "2026-11-17T19:58:37.050414+00:00",

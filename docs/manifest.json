@@ -1,5 +1,14 @@
 [
   {
+    "filename": "anomscanner-2026-11-19-1795116941268.html",
+    "for_date": "2026-11-19",
+    "generated_at": "2026-11-19T19:35:41.269226+00:00",
+    "flagged": [
+      "AMD",
+      "POWL"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-11-18-1795030248243.html",
     "for_date": "2026-11-18",
     "generated_at": "2026-11-18T19:30:48.243948+00:00",

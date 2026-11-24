@@ -1,5 +1,22 @@
 [
   {
+    "filename": "anomscanner-2026-11-24-1795555659650.html",
+    "for_date": "2026-11-24",
+    "generated_at": "2026-11-24T21:27:39.651001+00:00",
+    "flagged": [
+      "MU",
+      "ALAB",
+      "AMPX",
+      "CLS",
+      "GRBK",
+      "VRT",
+      "ASML",
+      "STRL",
+      "POWL",
+      "AMGN"
+    ]
+  },
+  {
     "filename": "anomscanner-2026-11-23-1795474369254.html",
     "for_date": "2026-11-23",
     "generated_at": "2026-11-23T22:52:49.255463+00:00",
